@@ -57,6 +57,8 @@ brew cask install metasploit
 
 #Communication Apps
 brew cask install slack
+brew cask install adium
+brew cask install skype-for-business
 
 #Web Tools
 brew cask install google-chrome
@@ -75,7 +77,10 @@ brew cask install spotify
 brew cask install whatsapp
 brew cask install path-finder
 brew cask install bartender
-brew cask install adium
 brew cask install cyberduck
-brew cask install skype-for-business
+brew cask install viscosity
+brew cask install skitch
+brew cask install citrix-receiver
+brew cask install carbon-copy-cloner
+brew cask install vyprvpn
 brew cask install vmware-fusion8 #could be changed to whatever version you need - 'brew cask search vmware'
