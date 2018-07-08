@@ -1,12 +1,13 @@
 #!/bin/sh
 
-# Homebrew Script for OSX
+# Homebrew Script for MacOS
 # To execute: save and `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh`
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 echo "Installing brew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 #update brew
 brew update
 
@@ -74,4 +75,7 @@ brew cask install spotify
 brew cask install whatsapp
 brew cask install path-finder
 brew cask install bartender
+brew cask install adium
+brew cask install cyberduck
+brew cask install skype-for-business
 brew cask install vmware-fusion8 #could be changed to whatever version you need - 'brew cask search vmware'
