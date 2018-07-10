@@ -47,6 +47,8 @@ brew install git
 brew cask install github-desktop
 brew cask install atom
 brew cask install sublime-text
+brew cask install osxfuse
+brew install sshfs
 
 #Testing Tools
 brew install netcat
@@ -54,6 +56,7 @@ brew cask install burp-suite
 brew cask install owasp-zap
 brew cask install zenmap
 brew cask install metasploit
+brew install sqlmap
 
 #Communication Apps
 brew cask install slack
