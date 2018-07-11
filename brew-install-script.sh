@@ -57,6 +57,9 @@ brew cask install owasp-zap
 brew cask install zenmap
 brew cask install metasploit
 brew install sqlmap
+brew install hydra
+brew install john-jumbo
+brew install ophcrack
 
 #Communication Apps
 brew cask install slack
