@@ -60,6 +60,8 @@ brew install sqlmap
 brew install hydra
 brew install john-jumbo
 brew install ophcrack
+brew install testssl
+brew install sslscan
 
 #Communication Apps
 brew cask install slack
