@@ -62,6 +62,8 @@ brew install john-jumbo
 brew install ophcrack
 brew install testssl
 brew install sslscan
+brew install ike-scan
+brew install nikto
 
 #Communication Apps
 brew cask install slack
