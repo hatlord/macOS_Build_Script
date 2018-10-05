@@ -18,7 +18,7 @@ brew install gnu-sed --with-default-names
 brew install gnu-tar --with-default-names
 brew install gnu-indent --with-default-names
 brew install gnu-which --with-default-names
-brew install gnu-grep --with-default-names
+brew install grep --with-default-names
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
@@ -49,6 +49,10 @@ brew cask install atom
 brew cask install sublime-text
 brew cask install osxfuse
 brew install sshfs
+#its better to just download the docker DMG. Saves a lot of fannying around
+# brew install docker
+# brew install docker-compose
+# brew install docker-machine
 
 #Testing Tools
 brew install netcat
@@ -64,6 +68,7 @@ brew install testssl
 brew install sslscan
 brew install ike-scan
 brew install nikto
+brew install telnet
 
 #Communication Apps
 brew cask install slack
