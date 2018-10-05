@@ -12,6 +12,7 @@ echo "Installing brew..."
 brew update
 
 # Install GNU core utilities (those that come with OS X are outdated)
+echo "Installing GNU Core Utilities"
 brew tap homebrew/dupes
 brew install coreutils
 brew install gnu-sed --with-default-names
@@ -24,6 +25,7 @@ brew install grep --with-default-names
 brew install findutils
 
 #Programming Languages
+echo "Programming Languages"
 brew install ruby
 brew install python
 brew install python3
@@ -43,6 +45,7 @@ RUBY_GEMS=(
 gem install ${RUBY_GEMS[@]}
 
 #Dev Tools
+echo "Dev Tools"
 brew install git
 brew cask install github-desktop
 brew cask install atom
@@ -55,6 +58,7 @@ brew install sshfs
 # brew install docker-machine
 
 #Testing Tools
+echo "Installing Testing Tools"
 brew install netcat
 brew cask install burp-suite
 brew cask install owasp-zap
@@ -71,11 +75,13 @@ brew install nikto
 brew install telnet
 
 #Communication Apps
+echo "Communications Apps"
 brew cask install slack
 brew cask install adium
 brew cask install skype-for-business
 
 #Web Tools
+echo "Installing Browsers"
 brew cask install google-chrome
 brew cask install firefox
 brew cask install caskroom/versions/firefoxdeveloperedition
