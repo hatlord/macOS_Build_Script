@@ -41,6 +41,7 @@ RUBY_GEMS=(
     trollop
     tiny_tds
     text-table
+    optimist
 )
 gem install ${RUBY_GEMS[@]}
 
