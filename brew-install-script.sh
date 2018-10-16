@@ -42,6 +42,7 @@ RUBY_GEMS=(
     tiny_tds
     text-table
     optimist
+    searchpass
 )
 gem install ${RUBY_GEMS[@]}
 
