@@ -86,7 +86,7 @@ brew cask install skype-for-business
 echo "Installing Browsers"
 brew cask install google-chrome
 brew cask install firefox
-brew cask install caskroom/versions/firefoxdeveloperedition
+brew cask install caskroom/versions/firefox-developer-edition
 
 # Core Functionality
 echo "Installing Core Apps"
