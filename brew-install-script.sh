@@ -61,6 +61,7 @@ brew install sshfs
 
 #Testing Tools
 echo "Installing Testing Tools"
+brew install inetutils
 brew install netcat
 brew cask install burp-suite
 brew cask install owasp-zap
