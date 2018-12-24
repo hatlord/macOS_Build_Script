@@ -76,6 +76,7 @@ brew install sslscan
 brew install ike-scan
 brew install nikto
 brew install telnet
+brew install postgresql
 
 #Communication Apps
 echo "Communications Apps"
