@@ -77,7 +77,7 @@ brew install ike-scan
 brew install nikto
 brew install telnet
 brew install postgresql
-brew install wirshark --with-qt #this installs command line only, following line installs the GUI
+brew install wireshark --with-qt #this installs command line only, following line installs the GUI
 brew cask install wireshark
 
 #Communication Apps
