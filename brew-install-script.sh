@@ -102,7 +102,6 @@ brew cask install evernote
 brew cask install 1password
 brew cask install spotify
 brew cask install whatsapp
-brew cask install path-finder
 brew cask install bartender
 brew cask install cyberduck
 brew cask install viscosity
