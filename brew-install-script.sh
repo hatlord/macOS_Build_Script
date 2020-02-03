@@ -110,3 +110,8 @@ brew cask install citrix-receiver
 brew cask install carbon-copy-cloner
 brew cask install vyprvpn
 brew cask install vmware-fusion8 #could be changed to whatever version you need - 'brew cask search vmware'
+
+#Other fixes and stuff
+
+#Fix spaces autoswap behaviour
+defaults write com.apple.dock mru-spaces -bool false
