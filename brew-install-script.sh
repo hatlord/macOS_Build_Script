@@ -150,8 +150,12 @@ cd ~/Library/Fonts && {
     wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
     cd -; }
 
-
-
-
+#Install hashcat - note, dont change the directory, doing so might break things. 6.2.3 was chosen to avoid Intel GPU issues on Monterey
+echo "Installing hashcat"
+wget https://github.com/hashcat/hashcat/archive/refs/tags/v6.2.3.tar.gz -P ~/
+cd ~/ && tar -xvf v6.2.3.tar.gz
+cd ~/hashcat-6.2.3 && make clean && make -s
+echo "Hashcat installed in your home directory - please add it to your path if needed"
+echo "Remember to run hashcat with -D2 and -O"
 
 
