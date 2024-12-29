@@ -9,6 +9,7 @@ defaults write com.apple.finder ShowPathbar -bool true #shows path in finder
 defaults write com.apple.finder ShowStatusBar -bool true #shows status bar (number of files/space remaining)
 chflags nohidden ~/Library #unhide files in Library
 defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton #enables right mouse click
+defaults write -g AppleKeyboardUIMode -int 2 #tab to navigate prompts
 
 #install xcode
 xcode-select --install
