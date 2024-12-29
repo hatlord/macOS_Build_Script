@@ -95,6 +95,9 @@ brew install google-chrome --cask
 brew install firefox --cask
 brew install caskroom/versions/firefoxdeveloperedition --cask
 
+#Menu bar organisation
+brew install --cask dozer
+
 #Install MAS - this tool installs applications from the Apple app store - you must be signed into the apple account first!
 brew install mas #https://github.com/mas-cli/mas
 #Install apps using mas - note - comment out any you dont own!
