@@ -88,7 +88,6 @@ brew install feroxbuster #https://github.com/epi052/feroxbuster
 #Communication Apps
 echo "Communications Apps"
 brew install slack --cask
-brew install --cask microsoft-teams
 
 #Web Tools
 echo "Installing Browsers"
@@ -122,14 +121,11 @@ mas install 405843582 #alfred
 
 # Core Functionality
 echo "Installing Core Apps"
-brew install alfred --cask
-brew install dropbox --cask
+brew install --cask alfred
 brew install iterm2 --cask
-brew install vmware-fusion --cask
 brew install java
 brew install spotify --cask
 brew install whatsapp --cask
-brew install bartender --cask
 brew install cyberduck --cask
 brew install viscosity --cask
 brew install skitch --cask
@@ -146,6 +142,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 #Set Theme in zshrc
 echo '"ZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
+echo '"source ~/powerlevel10k/powerlevel10k.zsh-theme"' >> ~/.zshrc
 #Install Powerlevel Fonts
 echo "Installing Powerlevel Fonts"
 cd ~/Library/Fonts && { 
