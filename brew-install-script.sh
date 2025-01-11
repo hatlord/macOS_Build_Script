@@ -64,7 +64,6 @@ sudo gem install ${RUBY_GEMS[@]}
 #Dev Tools
 echo "Dev Tools"
 brew install git
-brew install atom --cask
 brew install sublime-text --cask
 
 #Testing Tools
