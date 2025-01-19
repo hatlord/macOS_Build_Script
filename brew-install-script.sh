@@ -39,6 +39,7 @@ brew install findutils
 #Programming Languages
 echo "Programming Languages"
 brew install ruby
+brew install rbenv
 brew install python
 brew install python3
 
@@ -60,6 +61,11 @@ RUBY_GEMS=(
     roo
 )
 sudo gem install ${RUBY_GEMS[@]}
+
+#Install rubies
+rbenv install 3.3.7
+rbenv install 2.7.8
+rbenv global 3.3.7
 
 #Dev Tools
 echo "Dev Tools"
