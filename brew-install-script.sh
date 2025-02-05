@@ -44,6 +44,14 @@ brew install rbenv
 brew install python
 brew install python3
 
+# Add rbenv ruby stuff
+
+echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+rbenv install 3.3.7
+rbenv install 2.7.8
+rbenv global 3.3.7
+
 #Install Ruby Gems
 echo "Installing Ruby gems"
 RUBY_GEMS=(
