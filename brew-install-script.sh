@@ -105,7 +105,6 @@ brew install testssl
 brew install sslscan
 brew install ike-scan
 brew install nikto
-brew install telnet
 brew install ffuf #https://github.com/ffuf/ffuf
 brew install feroxbuster #https://github.com/epi052/feroxbuster
 
