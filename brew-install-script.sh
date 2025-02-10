@@ -89,6 +89,7 @@ rbenv global 3.3.7
 echo "Dev Tools"
 brew install git
 brew install sublime-text --cask
+brew install sqlcmd
 
 #Testing Tools
 echo "Installing Testing Tools"
