@@ -49,6 +49,7 @@ brew install pyenv
 
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
+# install rubies
 rbenv install 3.3.7
 rbenv install 2.7.8
 rbenv global 3.3.7
@@ -80,10 +81,6 @@ RUBY_GEMS=(
 )
 sudo gem install ${RUBY_GEMS[@]}
 
-#Install rubies
-rbenv install 3.3.7
-rbenv install 2.7.8
-rbenv global 3.3.7
 
 #Dev Tools
 echo "Dev Tools"
@@ -93,6 +90,7 @@ brew install sqlcmd
 brew install mysql-client
 #add mysql client to path
 echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.zshrc
+
 
 
 #Testing Tools
@@ -112,6 +110,7 @@ brew install ike-scan
 brew install nikto
 brew install ffuf #https://github.com/ffuf/ffuf
 brew install feroxbuster #https://github.com/epi052/feroxbuster
+brew install --cask dbeaver-community
 
 #Communication Apps
 echo "Communications Apps"
