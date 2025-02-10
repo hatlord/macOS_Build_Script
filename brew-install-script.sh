@@ -90,6 +90,10 @@ echo "Dev Tools"
 brew install git
 brew install sublime-text --cask
 brew install sqlcmd
+brew install mysql-client
+#add mysql client to path
+echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.zshrc
+
 
 #Testing Tools
 echo "Installing Testing Tools"
