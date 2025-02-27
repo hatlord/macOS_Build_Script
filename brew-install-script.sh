@@ -159,6 +159,7 @@ brew install viscosity --cask
 brew install skitch --cask
 brew install citrix-receiver --cask
 brew install carbon-copy-cloner --cask
+brew install ipcalc
 
 #brew cleanup
 brew cleanup
