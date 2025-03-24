@@ -111,6 +111,7 @@ brew install nikto
 brew install ffuf #https://github.com/ffuf/ffuf
 brew install feroxbuster #https://github.com/epi052/feroxbuster
 brew install wireshark
+brew install ffuf
 brew install --cask dbeaver-community
 
 #Communication Apps
