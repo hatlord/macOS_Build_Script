@@ -44,9 +44,11 @@ brew install gnu-which
 brew install grep
 brew install wget
 brew install inetutils
-
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
+
+echo "Installing Generic Utilities"
+brew install --cask 1password
 
 #Programming Languages
 echo "Programming Languages"
