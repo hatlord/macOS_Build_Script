@@ -14,7 +14,8 @@ defaults write com.apple.dock tilesize -int 38 && killall Dock # Set dock size
 #set keyboard repeat rates
 defaults write -g InitialKeyRepeat -int 25
 defaults write -g KeyRepeat -int 2
-
+# Disable natural scrolling
+defaults write -g com.apple.swipescrolldirection -bool false
 
 
 #install xcode
