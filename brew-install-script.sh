@@ -165,7 +165,6 @@ mas install 1451685025 #wireguard
 mas install 497799835 #xcode 
 mas install 1408727408 #wifi explorer lite
 mas install 1333542190 #1password
-mas install 406056744 #evernote
 mas install 405843582 #alfred
 
 # Core Functionality
