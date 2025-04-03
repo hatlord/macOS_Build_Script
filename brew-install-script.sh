@@ -51,6 +51,7 @@ brew install rbenv
 brew install python
 brew install python3
 brew install pyenv
+brew install pyenv-virtualenv
 
 # Add rbenv ruby stuff
 
@@ -63,11 +64,19 @@ rbenv global 3.3.7
 
 # add pyenv python stuff
 
+echo '# pyenv and pyenv-virtualenv' >> ~/.zshrc
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
+echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
+echo "\n\n" >> ~/.zshrc
+
 pyenv install 3.13.1
 pyenv global 3.13.1
+
+
+
 
 #Install Ruby Gems
 echo "Installing Ruby gems"
