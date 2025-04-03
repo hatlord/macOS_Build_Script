@@ -75,6 +75,7 @@ RUBY_GEMS=(
     bundler
     tty-command
     tty-prompt
+    tty-spinner
     nokogiri
     colorize
     threadify
@@ -95,18 +96,17 @@ brew install git
 brew install sublime-text --cask
 brew install sqlcmd
 brew install mysql-client
-#add mysql client to path
+# Add mysql client to path
 echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.zshrc
 
 
 
-#Testing Tools
+# Testing Tools
 echo "Installing Testing Tools"
 brew install netcat
 brew install burp-suite --cask
 brew install owasp-zap --cask
 brew install zenmap --cask
-# brew cask install metasploit - not sure i want this on my base OS
 brew install sqlmap
 brew install hydra
 brew install john-jumbo
@@ -168,6 +168,8 @@ brew install skitch --cask
 brew install citrix-receiver --cask
 brew install carbon-copy-cloner --cask
 brew install ipcalc
+brew install --cask obsidian
+brew install --cask google-drive
 
 #brew cleanup
 brew cleanup
