@@ -11,6 +11,12 @@ chflags nohidden ~/Library #unhide files in Library
 defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton # Enables right mouse click
 defaults write -g AppleKeyboardUIMode -int 2 # Tab to navigate prompts
 defaults write com.apple.dock tilesize -int 38 && killall Dock # Set dock size
+#set keyboard repeat rates
+defaults write -g InitialKeyRepeat -int 25
+defaults write -g KeyRepeat -int 2
+
+
+
 #install xcode
 xcode-select --install
 
