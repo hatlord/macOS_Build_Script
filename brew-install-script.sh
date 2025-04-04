@@ -156,16 +156,16 @@ brew install mas #https://github.com/mas-cli/mas
 echo "Installing app store apps"
 mas install 1295203466 #Microsoft RDP
 mas install 470158793 #keka
-mas install 1116599239 #nordvpn
+# mas install 1116599239 #nordvpn
 mas install 411643860 #daisy disk
 mas install 604275546 #xml notepad
 mas install 441258766 #magnet
 mas install 1274495053 #microsoft to-do
 mas install 425424353 #the unarchiver
-mas install 775737590 #iA Writer
+# mas install 775737590 #iA Writer
 mas install 1289197285 #mindnode
 mas install 1451685025 #wireguard
-mas install 497799835 #xcode 
+# mas install 497799835 #xcode 
 mas install 1408727408 #wifi explorer lite
 mas install 1333542190 #1password
 mas install 405843582 #alfred
@@ -177,14 +177,18 @@ brew install iterm2 --cask
 brew install java
 brew install spotify --cask
 brew install whatsapp --cask
-brew install cyberduck --cask
+# brew install cyberduck --cask
 brew install viscosity --cask
-brew install skitch --cask
+# brew install skitch --cask
+brew install --cask shottr
 brew install citrix-receiver --cask
 brew install carbon-copy-cloner --cask
 brew install ipcalc
 brew install --cask obsidian
 brew install --cask google-drive
+brew install --cask typora
+brew install --cask parallels
+brew install --cask utm
 
 #brew cleanup
 brew cleanup
