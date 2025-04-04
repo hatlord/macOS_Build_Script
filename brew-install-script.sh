@@ -189,22 +189,9 @@ brew install --cask google-drive
 #brew cleanup
 brew cleanup
 
-#Install Oh My ZSH
-echo "Installing OhMyZSH"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-#Install PowerLevel Theme:
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-#Set Theme in zshrc
-echo '"ZSH_THEME="powerlevel10k/powerlevel10k"' >> ~/.zshrc
-echo '"source ~/powerlevel10k/powerlevel10k.zsh-theme"' >> ~/.zshrc
-#Install Powerlevel Fonts
-echo "Installing Powerlevel Fonts"
-cd ~/Library/Fonts && { 
-    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
-    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
-    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
-    wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
-    cd -; }
+#Install Oh My ZSH and Powerlevel10k
+brew install powerlevel10k
+echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
 #Install hashcat - note, dont change the directory, doing so might break things. 6.2.3 was chosen to avoid Intel GPU issues on Monterey
 echo "Installing hashcat"
