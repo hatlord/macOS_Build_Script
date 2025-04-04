@@ -202,6 +202,7 @@ echo "Installing hashcat 6.2.3"
 wget https://github.com/hashcat/hashcat/archive/refs/tags/v6.2.3.tar.gz -P ~/
 cd ~/ && tar -xvf v6.2.3.tar.gz
 cd ~/hashcat-6.2.3 && make clean && make -s
+cd ~/
 echo "Installing latest hashcat from github (Metal and Apple Silicon Support is better)"
 git clone https://github.com/hashcat/hashcat.git
 cd ~/hashcat
