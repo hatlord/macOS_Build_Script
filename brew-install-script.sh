@@ -194,10 +194,15 @@ brew install powerlevel10k
 echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
 #Install hashcat - note, dont change the directory, doing so might break things. 6.2.3 was chosen to avoid Intel GPU issues on Monterey
-echo "Installing hashcat"
+echo "Installing hashcat 6.2.3"
 wget https://github.com/hashcat/hashcat/archive/refs/tags/v6.2.3.tar.gz -P ~/
 cd ~/ && tar -xvf v6.2.3.tar.gz
 cd ~/hashcat-6.2.3 && make clean && make -s
+echo "Installing hashcat 6.2.6 (Metal and Apple Silicon Support is better)"
+wget https://github.com/hashcat/hashcat/archive/refs/tags/v6.2.6.tar.gz -P ~/
+cd ~/ && tar -xvf v6.2.6.tar.gz
+cd ~/hashcat-6.2.6 && make clean && make -s
+
 echo "Hashcat installed in your home directory - please add it to your path if needed"
 echo "Remember to run hashcat with -D2 and -O"
 
