@@ -137,6 +137,12 @@ brew install wireshark
 brew install ffuf
 brew install --cask dbeaver-community
 
+# Impacket
+
+echo "Installing Impacket"
+pip3 install pipx
+python3 -m pipx install impacket
+
 #Communication Apps
 echo "Communications Apps"
 brew install slack --cask
