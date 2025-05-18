@@ -137,6 +137,7 @@ brew install wireshark
 brew install ffuf
 brew install dalfox # XSS scanner
 brew install --cask dbeaver-community
+brew install wpscanteam/tap/wpscan
 
 # Impacket
 
